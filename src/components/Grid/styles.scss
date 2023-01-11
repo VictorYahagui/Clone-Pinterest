@@ -1,0 +1,14 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(7, 252px);
+
+    max-height: 0px;
+    visibility: hidden;
+    pointer-events: none;
+
+    &.active {
+        max-height: unset;
+        visibility: visible;
+        pointer-events: auto;
+    }
+}

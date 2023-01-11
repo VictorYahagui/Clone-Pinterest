@@ -1,0 +1,9 @@
+.item {
+    width: 236px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.item:not(first-child) {
+    margin-bottom: 10px;
+}

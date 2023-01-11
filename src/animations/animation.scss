@@ -1,0 +1,14 @@
+.animate-before,
+.animate-after {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.animate-after {
+    transform: translateY(-40px);
+}
+
+.animate-before {
+    opacity: 1;
+    transform: translateY(40px);
+}

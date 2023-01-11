@@ -1,0 +1,10 @@
+:root {
+    //color
+    --white: #fff;
+    --red: #e60023;
+    --black: #111;
+    --gray-light: #efefef;
+    //time
+    --fade-duration: 1s;
+    --columns-transition-delay: 0.2s;
+}
